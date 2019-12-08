@@ -4,8 +4,7 @@ def valid_move? (board, index)
     true
   else
     false
-  end
-if index.between?(0, 8)
+elseif index.between?(0, 8)
   true
 else
   false
